@@ -1110,3 +1110,1416 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.09-14.16.13:542][436]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.09.09-14.16.44:327][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
 [2023.09.09-14.18.05:437][500]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.041 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1308 files in 1909 folders with total size 26 MiB.
+[2023.09.09-15.07.50:357][455]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.09.09-15.07.50:357][455]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.09.09-15.18.06:434][303]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.038 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1308 files in 1909 folders with total size 26 MiB.
+[2023.09.09-15.21.20:850][886]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek USB Audio), InstanceID=1
+[2023.09.09-15.21.21:024][886]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.09-15.21.21:359][887]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e53f8d16-1bcf-4bf5-afe4-3a16d4fc74d1}, Name=Headphones (Realtek USB Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=23.96
+[2023.09.09-15.21.21:359][887]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-15.21.21:360][887]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-15.59.16:708][714]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.09.09-16.18.05:447][100]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.051 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1308 files in 1909 folders with total size 26 MiB.
+[2023.09.09-16.23.40:948][106]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.09.09-16.23.41:070][106]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.09-16.23.41:405][107]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e53f8d16-1bcf-4bf5-afe4-3a16d4fc74d1}, Name=Headphones (Realtek USB Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=18.48
+[2023.09.09-16.23.41:406][107]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-16.23.41:406][107]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-17.36.01:765][372]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (5- Arctis Nova Pro Wireless), InstanceID=1
+[2023.09.09-17.36.02:059][372]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.09-17.36.02:394][373]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a0ba480d-5927-40d4-b5a6-9cacb04a16ea}, Name=Headphones (5- Arctis Nova Pro Wireless)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=36.24
+[2023.09.09-17.36.02:394][373]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-17.36.02:395][373]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-18.07.36:617][ 55]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek USB Audio), InstanceID=1
+[2023.09.09-18.07.36:634][ 55]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.09-18.07.36:968][ 56]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e53f8d16-1bcf-4bf5-afe4-3a16d4fc74d1}, Name=Headphones (Realtek USB Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=156.75
+[2023.09.09-18.07.36:968][ 56]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-18.07.36:970][ 56]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-18.28.55:284][891]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.043 and deleted 140 files with total size 0 MiB and 137 empty folders. Scanned 1308 files in 1909 folders with total size 26 MiB.
+[2023.09.09-19.13.26:106][903]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (5- Arctis Nova Pro Wireless), InstanceID=1
+[2023.09.09-19.13.26:233][903]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.09-19.13.26:569][904]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a0ba480d-5927-40d4-b5a6-9cacb04a16ea}, Name=Headphones (5- Arctis Nova Pro Wireless)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=13.06
+[2023.09.09-19.13.26:569][904]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.09-19.13.26:570][904]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.09-19.19.34:489][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.19.34:658][210]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.19.38:578][547]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.09-19.19.38:607][547]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.09-19.19.38:616][548]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.09-19.19.43:120][ 69]LogContentBrowser: Attempting asset rename: NewFolder -> PaperAssets
+[2023.09.09-19.19.43:120][ 69]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.09-19.19.48:380][308]LogAssetTools: Warning: Two factories registered with same priority : PaperSpriteSheetReimportFactory_0 and PaperSpriteSheetImportFactory_0
+[2023.09.09-19.19.48:380][308]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:\Users\blob2\Downloads\Action Platformer Assets\Captain/Captain.json)
+[2023.09.09-19.19.48:381][308]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.aseprite.org/' while parsing sprite descriptor file 'Captain'.  Parsing will continue but the format may not be fully supported
+[2023.09.09-19.19.48:395][308]LogInterchangeEngine: [Pending] Importing
+[2023.09.09-19.19.48:395][308]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/blob2/... Assets/CaptainCaptain.png]
+[2023.09.09-19.19.48:403][308]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.09-19.19.48:406][308]LogTexture: Display: Building textures: /Game/PaperAssets/Captain/Textures/Captain.Captain (TFO_AutoDXT, 672x576 x1x1x1) (Required Memory Estimate: 61.796875 MB), EncodeSpeed: Fast
+[2023.09.09-19.19.48:414][308]LogInterchangeEngine: [Success] Import Done
+[2023.09.09-19.19.48:418][308]LogTexture: Display: Building textures: /Game/PaperAssets/Captain/Textures/Captain.Captain (BGRA8, 672x576 x1x1x1) (Required Memory Estimate: 11.382812 MB), EncodeSpeed: Fast
+[2023.09.09-19.19.48:535][308]LogInterchangeEngine: [Pending] Importing
+[2023.09.09-19.19.48:535][308]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/blob2/... Assets/CaptainCaptain.png]
+[2023.09.09-19.19.48:536][308]LogAssetTools: Warning: Two factories registered with same priority : PaperSpriteSheetReimportFactory_0 and PaperSpriteSheetImportFactory_0
+[2023.09.09-19.19.48:536][308]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:\Users\blob2\Downloads\Action Platformer Assets\Shark/Shark.json)
+[2023.09.09-19.19.48:537][308]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.aseprite.org/' while parsing sprite descriptor file 'Shark'.  Parsing will continue but the format may not be fully supported
+[2023.09.09-19.19.48:537][308]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.09.09-19.19.48:540][308]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.09-19.19.48:540][308]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "LOCGEN_FORMAT_ORDERED(NSLOCTEXT(\"InterchangeTextureFactory\", \"TexFact_CouldNotCreateMat\", \"UInterchangeTextureFactory: Could not create texture asset %s. Reason: %s\"), \"Captain\", NSLOCTEXT(\"InterchangeTextureFactory\", \"TextureFactory_TextureCreateFail\", \"Texture creation fail.\"))"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/blob2/Downloads/Action Platformer Assets/Captain/Captain.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Captain"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.09.09-19.19.48:541][308]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"TextureFactory_Async_FailCreatingAsset\", \"UInterchangeTextureFactory: Could not create texture asset.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/blob2/Downloads/Action Platformer Assets/Captain/Captain.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Captain"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.09.09-19.19.48:541][308]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.09.09-19.19.48:541][308]LogInterchangeEngine: [Pending] Importing
+[2023.09.09-19.19.48:541][308]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/blob2/...er Assets/SharkShark.png]
+[2023.09.09-19.19.48:548][308]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.09-19.19.48:549][308]LogTexture: Display: Building textures: /Game/PaperAssets/Shark/Textures/Shark.Shark (TFO_AutoDXT, 576x480 x1x1x1) (Required Memory Estimate: 45.765625 MB), EncodeSpeed: Fast
+[2023.09.09-19.19.48:555][308]LogInterchangeEngine: [Success] Import Done
+[2023.09.09-19.19.48:560][308]LogTexture: Display: Building textures: /Game/PaperAssets/Shark/Textures/Shark.Shark (BGRA8, 576x480 x1x1x1) (Required Memory Estimate: 8.148438 MB), EncodeSpeed: Fast
+[2023.09.09-19.19.48:621][308]LogInterchangeEngine: [Pending] Importing
+[2023.09.09-19.19.48:621][308]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/blob2/...er Assets/SharkShark.png]
+[2023.09.09-19.19.48:622][308]LogAssetTools: Warning: Two factories registered with same priority : PaperSpriteSheetReimportFactory_0 and PaperSpriteSheetImportFactory_0
+[2023.09.09-19.19.48:622][308]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:\Users\blob2\Downloads\Action Platformer Assets\Sword/Sword.json)
+[2023.09.09-19.19.48:622][308]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.aseprite.org/' while parsing sprite descriptor file 'Sword'.  Parsing will continue but the format may not be fully supported
+[2023.09.09-19.19.48:623][308]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.09.09-19.19.48:625][308]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.09-19.19.48:625][308]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "LOCGEN_FORMAT_ORDERED(NSLOCTEXT(\"InterchangeTextureFactory\", \"TexFact_CouldNotCreateMat\", \"UInterchangeTextureFactory: Could not create texture asset %s. Reason: %s\"), \"Shark\", NSLOCTEXT(\"InterchangeTextureFactory\", \"TextureFactory_TextureCreateFail\", \"Texture creation fail.\"))"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/blob2/Downloads/Action Platformer Assets/Shark/Shark.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Shark"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.09.09-19.19.48:625][308]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"TextureFactory_Async_FailCreatingAsset\", \"UInterchangeTextureFactory: Could not create texture asset.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/blob2/Downloads/Action Platformer Assets/Shark/Shark.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Shark"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.09.09-19.19.48:625][308]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.09.09-19.19.48:625][308]LogInterchangeEngine: [Pending] Importing
+[2023.09.09-19.19.48:625][308]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/blob2/...er Assets/SwordSword.png]
+[2023.09.09-19.19.48:632][308]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.09-19.19.48:632][308]LogTexture: Display: Building textures: /Game/PaperAssets/Sword/Textures/Sword.Sword (TFO_AutoDXT, 384x384 x1x1x1) (Required Memory Estimate: 23.3125 MB), EncodeSpeed: Fast
+[2023.09.09-19.19.48:638][308]LogInterchangeEngine: [Success] Import Done
+[2023.09.09-19.19.48:643][308]LogTexture: Display: Building textures: /Game/PaperAssets/Sword/Textures/Sword.Sword (BGRA8, 384x384 x1x1x1) (Required Memory Estimate: 4.375 MB), EncodeSpeed: Fast
+[2023.09.09-19.19.48:663][308]LogInterchangeEngine: [Pending] Importing
+[2023.09.09-19.19.48:663][308]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/blob2/...er Assets/SwordSword.png]
+[2023.09.09-19.19.48:711][309]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.09-19.19.48:712][309]LogInterchangeEngine: [Success] Import Done
+[2023.09.09-19.19.48:718][309]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "LOCGEN_FORMAT_ORDERED(NSLOCTEXT(\"InterchangeTextureFactory\", \"TexFact_CouldNotCreateMat\", \"UInterchangeTextureFactory: Could not create texture asset %s. Reason: %s\"), \"Sword\", NSLOCTEXT(\"InterchangeTextureFactory\", \"TextureFactory_TextureCreateFail\", \"Texture creation fail.\"))"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/blob2/Downloads/Action Platformer Assets/Sword/Sword.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Sword"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.09.09-19.19.48:718][309]LogInterchangeEngine: Error: {
+	"Type": "/Script/InterchangeCore.InterchangeResultError_Generic",
+	"Properties": [
+		{
+			"Name": "Text",
+			"Value": "NSLOCTEXT(\"InterchangeTextureFactory\", \"TextureFactory_Async_FailCreatingAsset\", \"UInterchangeTextureFactory: Could not create texture asset.\")"
+		},
+		{
+			"Name": "SourceAssetName",
+			"Value": "C:/Users/blob2/Downloads/Action Platformer Assets/Sword/Sword.png"
+		},
+		{
+			"Name": "DestinationAssetName",
+			"Value": "Sword"
+		},
+		{
+			"Name": "AssetType",
+			"Value": "/Script/CoreUObject.Class'/Script/Engine.Texture'"
+		},
+		{
+			"Name": "InterchangeKey",
+			"Value": ""
+		}
+	]
+}
+[2023.09.09-19.19.48:718][309]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.09.09-19.19.48:721][309]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.09.09-19.19.48:729][309]LogInterchangeEngine: [Success] Import Done
+[2023.09.09-19.19.48:737][309]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.09.09-19.19.48:746][309]LogInterchangeEngine: [Success] Import Done
+[2023.09.09-19.19.48:754][309]LogInterchangeEngine: Error: [Failure] Import Done
+[2023.09.09-19.20.56:078][805]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PaperAssets/Captain/Captain__Idle.Captain__Idle
+[2023.09.09-19.20.56:079][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.20.56:079][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.20.56:144][805]LogViewport: Scene viewport resized to 1526x790, mode Windowed.
+[2023.09.09-19.20.56:150][805]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.09-19.20.56:160][806]LogViewport: Scene viewport resized to 1526x783, mode Windowed.
+[2023.09.09-19.20.56:209][807]LogViewport: Scene viewport resized to 1526x764, mode Windowed.
+[2023.09.09-19.20.56:236][808]LogViewport: Scene viewport resized to 1526x761, mode Windowed.
+[2023.09.09-19.21.06:474][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.21.06:503][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Idle" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Idle.uasset" SILENT=true
+[2023.09.09-19.21.06:507][ 28]LogPackageLocalizationCache: Processed 45 localized package path(s) for 1 prioritized culture(s) in 0.003956 seconds
+[2023.09.09-19.21.06:507][ 28]LogSerialization: UsePackageTrailer: 'true'
+[2023.09.09-19.21.06:508][ 28]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Idle
+[2023.09.09-19.21.06:508][ 28]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__IdleF28A735E422DE4897B2B0FA2CAFBC5F0.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Idle.uasset'
+[2023.09.09-19.21.06:515][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms
+[2023.09.09-19.21.06:517][ 28]AssetCheck: New page: Asset Save: Captain__Idle
+[2023.09.09-19.21.06:517][ 28]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Idle.Captain__Idle
+[2023.09.09-19.21.07:580][154]LogSlate: Window 'Captain__Idle' being destroyed
+[2023.09.09-19.21.07:586][154]LogSlate: Window 'Captain__Idle' being destroyed
+[2023.09.09-19.21.07:587][154]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.21.07:587][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.21.11:592][630]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PaperAssets/Captain/Captain__Run.Captain__Run
+[2023.09.09-19.21.11:593][630]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.21.11:593][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.21.11:651][630]LogViewport: Scene viewport resized to 1526x795, mode Windowed.
+[2023.09.09-19.21.11:662][631]LogViewport: Scene viewport resized to 1526x791, mode Windowed.
+[2023.09.09-19.21.11:701][632]LogViewport: Scene viewport resized to 1526x776, mode Windowed.
+[2023.09.09-19.21.11:718][633]LogViewport: Scene viewport resized to 1526x769, mode Windowed.
+[2023.09.09-19.21.11:733][634]LogViewport: Scene viewport resized to 1526x763, mode Windowed.
+[2023.09.09-19.21.11:748][635]LogViewport: Scene viewport resized to 1526x761, mode Windowed.
+[2023.09.09-19.21.12:659][739]LogViewport: Scene viewport resized to 1522x784, mode Windowed.
+[2023.09.09-19.21.12:699][741]LogViewport: Scene viewport resized to 1032x455, mode Windowed.
+[2023.09.09-19.21.12:722][742]LogViewport: Scene viewport resized to 705x235, mode Windowed.
+[2023.09.09-19.21.12:737][743]LogViewport: Scene viewport resized to 626x182, mode Windowed.
+[2023.09.09-19.21.12:970][771]LogViewport: Scene viewport resized to 1526x761, mode Windowed.
+[2023.09.09-19.21.13:255][805]LogSlate: Window 'Captain__Run' being destroyed
+[2023.09.09-19.21.13:260][805]LogViewport: Scene viewport resized to 1526x814, mode Windowed.
+[2023.09.09-19.21.13:283][806]LogViewport: Scene viewport resized to 1526x805, mode Windowed.
+[2023.09.09-19.21.13:292][807]LogViewport: Scene viewport resized to 1526x802, mode Windowed.
+[2023.09.09-19.21.13:302][808]LogViewport: Scene viewport resized to 1526x798, mode Windowed.
+[2023.09.09-19.21.13:312][809]LogViewport: Scene viewport resized to 1526x795, mode Windowed.
+[2023.09.09-19.21.13:321][810]LogViewport: Scene viewport resized to 1526x791, mode Windowed.
+[2023.09.09-19.21.13:329][811]LogViewport: Scene viewport resized to 1526x788, mode Windowed.
+[2023.09.09-19.21.13:337][812]LogViewport: Scene viewport resized to 1526x785, mode Windowed.
+[2023.09.09-19.21.13:346][813]LogViewport: Scene viewport resized to 1526x781, mode Windowed.
+[2023.09.09-19.21.13:355][814]LogViewport: Scene viewport resized to 1526x778, mode Windowed.
+[2023.09.09-19.21.13:364][815]LogViewport: Scene viewport resized to 1526x775, mode Windowed.
+[2023.09.09-19.21.13:372][816]LogViewport: Scene viewport resized to 1526x771, mode Windowed.
+[2023.09.09-19.21.13:381][817]LogViewport: Scene viewport resized to 1526x768, mode Windowed.
+[2023.09.09-19.21.13:389][818]LogViewport: Scene viewport resized to 1526x765, mode Windowed.
+[2023.09.09-19.21.13:398][819]LogViewport: Scene viewport resized to 1526x761, mode Windowed.
+[2023.09.09-19.21.18:969][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.21.18:995][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Run" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Run.uasset" SILENT=true
+[2023.09.09-19.21.18:996][486]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Run
+[2023.09.09-19.21.18:996][486]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__RunAAFDB02947FED4060971888FB165256C.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Run.uasset'
+[2023.09.09-19.21.19:002][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 72 ms)
+[2023.09.09-19.21.19:004][486]AssetCheck: New page: Asset Save: Captain__Run
+[2023.09.09-19.21.19:004][486]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Run.Captain__Run
+[2023.09.09-19.21.22:873][940]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PaperAssets/Captain/Captain__Throw_Sword.Captain__Throw_Sword
+[2023.09.09-19.21.22:873][940]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.21.22:873][940]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.21.22:898][940]LogViewport: Scene viewport resized to 1526x807, mode Windowed.
+[2023.09.09-19.21.22:911][941]LogViewport: Scene viewport resized to 1526x801, mode Windowed.
+[2023.09.09-19.21.22:948][942]LogViewport: Scene viewport resized to 1526x787, mode Windowed.
+[2023.09.09-19.21.22:961][943]LogViewport: Scene viewport resized to 1526x782, mode Windowed.
+[2023.09.09-19.21.22:975][944]LogViewport: Scene viewport resized to 1526x777, mode Windowed.
+[2023.09.09-19.21.22:989][945]LogViewport: Scene viewport resized to 1526x771, mode Windowed.
+[2023.09.09-19.21.23:003][946]LogViewport: Scene viewport resized to 1526x766, mode Windowed.
+[2023.09.09-19.21.23:016][947]LogViewport: Scene viewport resized to 1526x761, mode Windowed.
+[2023.09.09-19.21.28:617][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.21.28:642][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Throw_Sword" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Throw_Sword.uasset" SILENT=true
+[2023.09.09-19.21.28:643][617]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Throw_Sword
+[2023.09.09-19.21.28:643][617]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Throw_Sword725DBC0A4F85ED319455BF8BCB17B693.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Throw_Sword.uasset'
+[2023.09.09-19.21.28:648][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 103 ms)
+[2023.09.09-19.21.28:651][617]AssetCheck: New page: Asset Save: Captain__Throw_Sword
+[2023.09.09-19.21.28:651][617]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Throw_Sword.Captain__Throw_Sword
+[2023.09.09-19.21.33:233][158]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/PaperAssets/Captain/Captain__Attack_2.Captain__Attack_2
+[2023.09.09-19.21.33:234][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.21.33:234][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.21.33:255][158]LogViewport: Scene viewport resized to 1526x808, mode Windowed.
+[2023.09.09-19.21.33:267][159]LogViewport: Scene viewport resized to 1526x803, mode Windowed.
+[2023.09.09-19.21.33:302][160]LogViewport: Scene viewport resized to 1526x790, mode Windowed.
+[2023.09.09-19.21.33:321][161]LogViewport: Scene viewport resized to 1526x783, mode Windowed.
+[2023.09.09-19.21.33:333][162]LogViewport: Scene viewport resized to 1526x778, mode Windowed.
+[2023.09.09-19.21.33:357][163]LogViewport: Scene viewport resized to 1526x769, mode Windowed.
+[2023.09.09-19.21.33:365][164]LogViewport: Scene viewport resized to 1526x766, mode Windowed.
+[2023.09.09-19.21.33:376][165]LogViewport: Scene viewport resized to 1526x761, mode Windowed.
+[2023.09.09-19.21.39:508][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.21.39:528][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Attack_2" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Attack_2.uasset" SILENT=true
+[2023.09.09-19.21.39:529][898]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Attack_2
+[2023.09.09-19.21.39:529][898]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_2D4B3011442BFE5BC29CE868780C4961A.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Attack_2.uasset'
+[2023.09.09-19.21.39:534][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 26 ms (total: 129 ms)
+[2023.09.09-19.21.39:537][898]AssetCheck: New page: Asset Save: Captain__Attack_2
+[2023.09.09-19.21.39:537][898]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Attack_2.Captain__Attack_2
+[2023.09.09-19.21.51:596][338]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.21.51:596][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.21.51:603][338]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.21.51:603][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.21.51:608][338]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.21.51:608][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.21.51:704][338]LogViewport: Scene viewport resized to 1407x908, mode Windowed.
+[2023.09.09-19.21.51:736][339]LogViewport: Scene viewport resized to 1407x894, mode Windowed.
+[2023.09.09-19.21.54:143][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.09-19.21.54:150][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.21.54:184][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain.uasset" SILENT=true
+[2023.09.09-19.21.54:185][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain
+[2023.09.09-19.21.54:185][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/CaptainA868886142A24A39BECB4FAB299011FC.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain.uasset'
+[2023.09.09-19.21.54:188][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Textures/Captain" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Textures/Captain.uasset" SILENT=true
+[2023.09.09-19.21.54:194][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Textures/Captain
+[2023.09.09-19.21.54:194][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain83F8FEE9490988A1265A56A0F82BE346.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Textures/Captain.uasset'
+[2023.09.09-19.21.54:197][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Idle_0_aseprite
+[2023.09.09-19.21.54:197][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Idle_0_asepriteA631D5434014CFCE0019B4A0EBCF54C4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Idle_0_aseprite.uasset'
+[2023.09.09-19.21.54:200][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Idle_1_aseprite
+[2023.09.09-19.21.54:200][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Idle_1_aseprite3CB762124721D49AE32AF1A425E4160E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Idle_1_aseprite.uasset'
+[2023.09.09-19.21.54:202][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Idle_2_aseprite
+[2023.09.09-19.21.54:202][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Idle_2_aseprite9C789DEE4AE26F9C2E12F1BD54C740CC.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Idle_2_aseprite.uasset'
+[2023.09.09-19.21.54:205][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Idle_3_aseprite
+[2023.09.09-19.21.54:205][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Idle_3_asepriteA897134A4B6B30D18FA913A4ED56CE88.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Idle_3_aseprite.uasset'
+[2023.09.09-19.21.54:208][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Idle_4_aseprite
+[2023.09.09-19.21.54:208][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Idle_4_asepriteD2D162574EB2E71B7DDC30B592DA85B8.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Idle_4_aseprite.uasset'
+[2023.09.09-19.21.54:211][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Run_0_aseprite
+[2023.09.09-19.21.54:211][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Run_0_aseprite7F0787C34AEB01EECCD3819DDC65C129.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Run_0_aseprite.uasset'
+[2023.09.09-19.21.54:214][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Run_1_aseprite
+[2023.09.09-19.21.54:214][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Run_1_asepriteDE168A7F405191F2B379D0AD07E8A22D.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Run_1_aseprite.uasset'
+[2023.09.09-19.21.54:216][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Run_2_aseprite
+[2023.09.09-19.21.54:216][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Run_2_asepriteCEFDCDB84679B7B975AF13BE2895D7BE.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Run_2_aseprite.uasset'
+[2023.09.09-19.21.54:219][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Run_3_aseprite
+[2023.09.09-19.21.54:219][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Run_3_asepriteEC1BB4A349F4914992E9D7A0E6D85F72.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Run_3_aseprite.uasset'
+[2023.09.09-19.21.54:222][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Run_4_aseprite
+[2023.09.09-19.21.54:222][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Run_4_asepriteF985AA14499F68C6971E71A453909226.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Run_4_aseprite.uasset'
+[2023.09.09-19.21.54:224][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Run_5_aseprite
+[2023.09.09-19.21.54:224][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Run_5_aseprite9CE8CFB449579FCD5D2DD9AB69B41E23.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Run_5_aseprite.uasset'
+[2023.09.09-19.21.54:227][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__JumpRise_0_aseprite
+[2023.09.09-19.21.54:227][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__JumpRise_0_asepriteDC5392E440601EFDB3E3C5AB180A936A.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__JumpRise_0_aseprite.uasset'
+[2023.09.09-19.21.54:229][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__JumpRise_1_aseprite
+[2023.09.09-19.21.54:229][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__JumpRise_1_aseprite0DB50F9944C59EA8569EFEBC5A5A6421.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__JumpRise_1_aseprite.uasset'
+[2023.09.09-19.21.54:231][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__JumpRise_2_aseprite
+[2023.09.09-19.21.54:231][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__JumpRise_2_asepriteA975756D4242396A47B15C8989C0B23E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__JumpRise_2_aseprite.uasset'
+[2023.09.09-19.21.54:233][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Fall_aseprite
+[2023.09.09-19.21.54:233][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Fall_aseprite2C4E463E487BCA97BD727FB8B3E96D33.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Fall_aseprite.uasset'
+[2023.09.09-19.21.54:236][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_0_aseprite
+[2023.09.09-19.21.54:236][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Hit_0_aseprite0B2A66D04B2E985496C3E9ADF245D867.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Hit_0_aseprite.uasset'
+[2023.09.09-19.21.54:240][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_1_aseprite
+[2023.09.09-19.21.54:240][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Hit_1_aseprite44967231462E16E79D3D9C93426DFEF8.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Hit_1_aseprite.uasset'
+[2023.09.09-19.21.54:243][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_2_aseprite
+[2023.09.09-19.21.54:243][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Hit_2_aseprite3C2DC6344D9022BA1E6088BBC955AD1C.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Hit_2_aseprite.uasset'
+[2023.09.09-19.21.54:245][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_3_aseprite
+[2023.09.09-19.21.54:245][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Hit_3_aseprite054F1B53440514A408EC629C22BFFD4F.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Hit_3_aseprite.uasset'
+[2023.09.09-19.21.54:248][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_1_0_aseprite
+[2023.09.09-19.21.54:248][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_1_0_aseprite7F7DC861405FAB55AEAB9B8B33A14E8F.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_1_0_aseprite.uasset'
+[2023.09.09-19.21.54:250][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_1_1_aseprite
+[2023.09.09-19.21.54:251][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_1_1_aseprite218CC7154C9F61F9FC41D09109A2EFC4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_1_1_aseprite.uasset'
+[2023.09.09-19.21.54:253][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_1_2_aseprite
+[2023.09.09-19.21.54:253][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_1_2_asepriteFA0BF108476FE9BDEED9F6A9D36DEC75.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_1_2_aseprite.uasset'
+[2023.09.09-19.21.54:256][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_2_0_aseprite
+[2023.09.09-19.21.54:256][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_2_0_aseprite4BC175574273237BDCE2D8B8DE255C2B.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_2_0_aseprite.uasset'
+[2023.09.09-19.21.54:258][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_2_1_aseprite
+[2023.09.09-19.21.54:258][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_2_1_aseprite303C9FFB4421708DC322F3ACA0484E9E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_2_1_aseprite.uasset'
+[2023.09.09-19.21.54:260][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_2_2_aseprite
+[2023.09.09-19.21.54:261][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_2_2_asepriteFA06700C4238A2AA4B7CECA9EDA49B86.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_2_2_aseprite.uasset'
+[2023.09.09-19.21.54:263][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_3_0_aseprite
+[2023.09.09-19.21.54:263][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_3_0_aseprite9825DF02415B711BAED5358E87890587.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_3_0_aseprite.uasset'
+[2023.09.09-19.21.54:265][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_3_1_aseprite
+[2023.09.09-19.21.54:265][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_3_1_asepriteBE1641EC48C805C597C0B59413E4E939.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_3_1_aseprite.uasset'
+[2023.09.09-19.21.54:269][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Attack_3_2_aseprite
+[2023.09.09-19.21.54:269][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_3_2_asepriteC99F8DB64F1F1D11D899DD8562749EFE.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Attack_3_2_aseprite.uasset'
+[2023.09.09-19.21.54:273][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_1_0_aseprite
+[2023.09.09-19.21.54:273][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_1_0_asepriteAE5EAD784AA86E61FAE99EB3A8F967F2.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Air_Attack_1_0_aseprite.uasset'
+[2023.09.09-19.21.54:275][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_1_1_aseprite
+[2023.09.09-19.21.54:275][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_1_1_aseprite8C75DC66402B1CD345165FB122879D69.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Air_Attack_1_1_aseprite.uasset'
+[2023.09.09-19.21.54:278][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_1_2_aseprite
+[2023.09.09-19.21.54:278][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_1_2_asepriteB84D5720464969AC872AE9940D261AE6.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Air_Attack_1_2_aseprite.uasset'
+[2023.09.09-19.21.54:280][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_2_0_aseprite
+[2023.09.09-19.21.54:280][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_2_0_aseprite6CF1BDDA474262B15BF474965270F5CB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Air_Attack_2_0_aseprite.uasset'
+[2023.09.09-19.21.54:282][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_2_1_aseprite
+[2023.09.09-19.21.54:282][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_2_1_aseprite552D0B32444F5310ECE1C2AE6DDC35F6.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Air_Attack_2_1_aseprite.uasset'
+[2023.09.09-19.21.54:285][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_2_2_aseprite
+[2023.09.09-19.21.54:285][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_2_2_aseprite7966DA484D1FCB9EA827AE8C380F96AF.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Air_Attack_2_2_aseprite.uasset'
+[2023.09.09-19.21.54:287][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Throw_Sword_0_aseprite
+[2023.09.09-19.21.54:287][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Throw_Sword_0_asepriteAB2EF94147D22EA90F4AFCBCB1585692.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Throw_Sword_0_aseprite.uasset'
+[2023.09.09-19.21.54:289][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Throw_Sword_1_aseprite
+[2023.09.09-19.21.54:289][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Throw_Sword_1_aseprite29403BEF414520B00FD4E7BCDD51866B.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Throw_Sword_1_aseprite.uasset'
+[2023.09.09-19.21.54:292][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Throw_Sword_2_aseprite
+[2023.09.09-19.21.54:292][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Throw_Sword_2_aseprite07D4C415447AF3EB561BE3B427C83108.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Throw_Sword_2_aseprite.uasset'
+[2023.09.09-19.21.54:295][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_0_aseprite
+[2023.09.09-19.21.54:295][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Ground_0_asepriteBE544EA243CA41FF576FE291E8581459.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Ground_0_aseprite.uasset'
+[2023.09.09-19.21.54:298][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_1_aseprite
+[2023.09.09-19.21.54:298][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Ground_1_asepriteB6EC8E4649ECB95713F29B98DA1285D9.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Ground_1_aseprite.uasset'
+[2023.09.09-19.21.54:301][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_2_aseprite
+[2023.09.09-19.21.54:301][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Ground_2_aseprite14FDF1AD4A7935AE4CA4488F9FCC6179.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Ground_2_aseprite.uasset'
+[2023.09.09-19.21.54:303][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_3_aseprite
+[2023.09.09-19.21.54:303][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Ground_3_asepriteB95F298D4E188BFB26D4FD88780A9FFB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Frames/Captain__Dead_Ground_3_aseprite.uasset'
+[2023.09.09-19.21.54:304][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Shark" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark.uasset" SILENT=true
+[2023.09.09-19.21.54:304][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Shark
+[2023.09.09-19.21.54:304][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/SharkE80FBA7C497BCE094DF585AAF43FDBE5.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark.uasset'
+[2023.09.09-19.21.54:306][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Textures/Shark" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Textures/Shark.uasset" SILENT=true
+[2023.09.09-19.21.54:310][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Textures/Shark
+[2023.09.09-19.21.54:310][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark815146C74C318EA3F376EEBD83530F73.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Textures/Shark.uasset'
+[2023.09.09-19.21.54:312][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_0_aseprite
+[2023.09.09-19.21.54:312][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_0_asepriteDEF892FB4C6570DBA25C149142139147.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_0_aseprite.uasset'
+[2023.09.09-19.21.54:315][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_1_aseprite
+[2023.09.09-19.21.54:315][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_1_aseprite108147C844B376D4011232B564A59284.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_1_aseprite.uasset'
+[2023.09.09-19.21.54:317][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_2_aseprite
+[2023.09.09-19.21.54:317][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_2_aseprite7F4536474A074C7AEC04EB8DC4AC11A0.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_2_aseprite.uasset'
+[2023.09.09-19.21.54:320][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_3_aseprite
+[2023.09.09-19.21.54:320][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_3_asepriteF8910F4844B4E3F829F215B37A89FFDF.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_3_aseprite.uasset'
+[2023.09.09-19.21.54:323][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_4_aseprite
+[2023.09.09-19.21.54:323][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_4_asepriteCEE3FD50483F76ED727E5E8C133D24A9.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_4_aseprite.uasset'
+[2023.09.09-19.21.54:325][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_5_aseprite
+[2023.09.09-19.21.54:325][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_5_aseprite3B8B186747F2127F99B03BB494CE5CBE.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_5_aseprite.uasset'
+[2023.09.09-19.21.54:327][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_6_aseprite
+[2023.09.09-19.21.54:327][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_6_aseprite390483964A35B1D800D04BB2BEA37FAB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_6_aseprite.uasset'
+[2023.09.09-19.21.54:331][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Idle_7_aseprite
+[2023.09.09-19.21.54:331][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Idle_7_aseprite375E2C3B432185373CEF00BB83B29A2C.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Idle_7_aseprite.uasset'
+[2023.09.09-19.21.54:333][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Run_0_aseprite
+[2023.09.09-19.21.54:333][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run_0_asepriteA8A7678548CC728014E5A28C836D4A5F.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Run_0_aseprite.uasset'
+[2023.09.09-19.21.54:335][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Run_1_aseprite
+[2023.09.09-19.21.54:335][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run_1_aseprite2425EE4F432EE9E22B7BE3B27490816B.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Run_1_aseprite.uasset'
+[2023.09.09-19.21.54:338][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Run_2_aseprite
+[2023.09.09-19.21.54:338][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run_2_asepriteAA95D7F647C383E5E74204AF812467C0.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Run_2_aseprite.uasset'
+[2023.09.09-19.21.54:340][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Run_3_aseprite
+[2023.09.09-19.21.54:340][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run_3_asepriteD51B1D6848887C3021A6A6B87900366E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Run_3_aseprite.uasset'
+[2023.09.09-19.21.54:342][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Run_4_aseprite
+[2023.09.09-19.21.54:342][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run_4_aseprite5D41088D4826DBD5AB27F6B19E5604E0.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Run_4_aseprite.uasset'
+[2023.09.09-19.21.54:345][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Run_5_aseprite
+[2023.09.09-19.21.54:345][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run_5_asepriteCAF3AA01404BE1C4E0419C90DF10E5F0.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Run_5_aseprite.uasset'
+[2023.09.09-19.21.54:349][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_0_aseprite
+[2023.09.09-19.21.54:349][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_0_asepriteBD4AD73444A0B59B1E16E1913CD157FB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_0_aseprite.uasset'
+[2023.09.09-19.21.54:351][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_1_aseprite
+[2023.09.09-19.21.54:351][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_1_asepriteCAFC57A64E66BDC36D4E92AD164ADA82.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_1_aseprite.uasset'
+[2023.09.09-19.21.54:354][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_2_aseprite
+[2023.09.09-19.21.54:354][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_2_aseprite40CDEF8441FF7F1A884E449E71322628.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_2_aseprite.uasset'
+[2023.09.09-19.21.54:356][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_3_aseprite
+[2023.09.09-19.21.54:356][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_3_asepriteBC5237EC4A0D3ED67D091F8DC1A76E88.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_3_aseprite.uasset'
+[2023.09.09-19.21.54:358][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_4_aseprite
+[2023.09.09-19.21.54:358][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_4_aseprite2A81FCB748087FEE95304983BB435335.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_4_aseprite.uasset'
+[2023.09.09-19.21.54:360][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_5_aseprite
+[2023.09.09-19.21.54:360][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_5_aseprite2C87F52C41D6A66334124EB841CE3F18.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_5_aseprite.uasset'
+[2023.09.09-19.21.54:363][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_6_aseprite
+[2023.09.09-19.21.54:363][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_6_aseprite371CA60C4F97D5EA9FDA488D65005A12.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_6_aseprite.uasset'
+[2023.09.09-19.21.54:365][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Attack_7_aseprite
+[2023.09.09-19.21.54:365][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Attack_7_aseprite5BD691B5476DD436BFCB8DA6BB3B9D93.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Attack_7_aseprite.uasset'
+[2023.09.09-19.21.54:368][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Hit_0_aseprite
+[2023.09.09-19.21.54:368][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Hit_0_aseprite1E006AB149A22969ABDA0FB5203B94D1.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Hit_0_aseprite.uasset'
+[2023.09.09-19.21.54:371][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Hit_1_aseprite
+[2023.09.09-19.21.54:371][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Hit_1_asepriteD783C30D48B33E3AA9797296B531C78C.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Hit_1_aseprite.uasset'
+[2023.09.09-19.21.54:373][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Hit_2_aseprite
+[2023.09.09-19.21.54:373][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Hit_2_aseprite1743B4D4440EF60E00BAFE96ACBC7AB1.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Hit_2_aseprite.uasset'
+[2023.09.09-19.21.54:377][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Hit_3_aseprite
+[2023.09.09-19.21.54:377][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Hit_3_aseprite48B4854D440EDBD514BC52B8E5EA46C4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Hit_3_aseprite.uasset'
+[2023.09.09-19.21.54:379][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_0_aseprite
+[2023.09.09-19.21.54:379][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Dead_Hit_0_asepriteCA2A87384479D6CA7707A1BA3F6D5B2E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Dead_Hit_0_aseprite.uasset'
+[2023.09.09-19.21.54:383][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_1_aseprite
+[2023.09.09-19.21.54:383][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Dead_Hit_1_asepriteABD7EB5645AA99FC4887F5ADC06FA93E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Dead_Hit_1_aseprite.uasset'
+[2023.09.09-19.21.54:385][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_2_aseprite
+[2023.09.09-19.21.54:385][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Dead_Hit_2_aseprite26EADB644CF71C336C16AC8D94A8624A.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Dead_Hit_2_aseprite.uasset'
+[2023.09.09-19.21.54:388][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_3_aseprite
+[2023.09.09-19.21.54:388][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Dead_Hit_3_asepriteFAF7B07448E6BD8C0DC05ABD58BDABA6.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Frames/Shark__Dead_Hit_3_aseprite.uasset'
+[2023.09.09-19.21.54:388][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Sword/Sword" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Sword.uasset" SILENT=true
+[2023.09.09-19.21.54:389][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Sword
+[2023.09.09-19.21.54:389][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Sword39C096044837F2F0EB4F3491EA8012DB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Sword.uasset'
+[2023.09.09-19.21.54:391][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Sword/Textures/Sword" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Textures/Sword.uasset" SILENT=true
+[2023.09.09-19.21.54:393][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Textures/Sword
+[2023.09.09-19.21.54:393][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Sword77D25CD44092576BAAAFBEA43B3AA5E0.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Textures/Sword.uasset'
+[2023.09.09-19.21.54:396][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_0_aseprite
+[2023.09.09-19.21.54:396][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_0_aseprite9FE0318046479E91CF99BC90471B8149.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_0_aseprite.uasset'
+[2023.09.09-19.21.54:399][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_1_aseprite
+[2023.09.09-19.21.54:399][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_1_aseprite8B9BE1044C94997937B2958E6F2E4198.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_1_aseprite.uasset'
+[2023.09.09-19.21.54:402][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_2_aseprite
+[2023.09.09-19.21.54:402][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_2_aseprite7814DE5F42371E5922A0A3B06403AA93.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_2_aseprite.uasset'
+[2023.09.09-19.21.54:404][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_3_aseprite
+[2023.09.09-19.21.54:404][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_3_asepriteFA7E701B40CE7528238BA591EF3B9C1A.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_3_aseprite.uasset'
+[2023.09.09-19.21.54:407][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_4_aseprite
+[2023.09.09-19.21.54:407][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_4_aseprite7074B1E24B199123EF2E9C8352CE1554.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_4_aseprite.uasset'
+[2023.09.09-19.21.54:409][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_5_aseprite
+[2023.09.09-19.21.54:409][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_5_aseprite9A5540B849999A2290888A9DABE7A475.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_5_aseprite.uasset'
+[2023.09.09-19.21.54:412][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_6_aseprite
+[2023.09.09-19.21.54:412][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_6_aseprite92D34FAE4184FDDC6BF00694C561C691.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_6_aseprite.uasset'
+[2023.09.09-19.21.54:414][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_7_aseprite
+[2023.09.09-19.21.54:414][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Idle_7_asepriteF7E086E948E3DE9BE06C5FAC88DDF742.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Idle_7_aseprite.uasset'
+[2023.09.09-19.21.54:416][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_0_aseprite
+[2023.09.09-19.21.54:416][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Spinning_0_asepriFF42291B4B1F92977B1A2389448E7DA8.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Spinning_0_aseprite.uasset'
+[2023.09.09-19.21.54:419][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_1_aseprite
+[2023.09.09-19.21.54:419][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Spinning_1_asepri7CDF04F44FF51B45C77FDB988168F10D.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Spinning_1_aseprite.uasset'
+[2023.09.09-19.21.54:421][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_2_aseprite
+[2023.09.09-19.21.54:421][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Spinning_2_asepri686E89FB4602AFA7692D0DAAB636B304.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Spinning_2_aseprite.uasset'
+[2023.09.09-19.21.54:424][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_3_aseprite
+[2023.09.09-19.21.54:424][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Spinning_3_asepriC21BE4DA4DFE57BB2A7EE0898CB5150F.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Spinning_3_aseprite.uasset'
+[2023.09.09-19.21.54:427][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_0_aseprite
+[2023.09.09-19.21.54:427][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Embedded_0_asepriB6F4876A468E30786FD74AA0830F8230.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Embedded_0_aseprite.uasset'
+[2023.09.09-19.21.54:429][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_1_aseprite
+[2023.09.09-19.21.54:429][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Embedded_1_asepri1B4AEDD64035DA24BAE52AA3D4C793A4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Embedded_1_aseprite.uasset'
+[2023.09.09-19.21.54:432][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_2_aseprite
+[2023.09.09-19.21.54:432][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Embedded_2_asepriAA7C0C3A4BFD1A78A6E052B546C6C9C5.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Embedded_2_aseprite.uasset'
+[2023.09.09-19.21.54:434][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_3_aseprite
+[2023.09.09-19.21.54:435][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_Embedded_3_asepri275402354636D63E08E7ABA40C52B8F4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Frames/Captain__Sword_Embedded_3_aseprite.uasset'
+[2023.09.09-19.21.54:436][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__JumpRise" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__JumpRise.uasset" SILENT=true
+[2023.09.09-19.21.54:437][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__JumpRise
+[2023.09.09-19.21.54:437][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__JumpRiseFEF88B434AE325122D9A688B42142806.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__JumpRise.uasset'
+[2023.09.09-19.21.54:439][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Dead_Hit" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Dead_Hit.uasset" SILENT=true
+[2023.09.09-19.21.54:439][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Dead_Hit
+[2023.09.09-19.21.54:439][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_Hit4B38503F44277223EB2C41BA6F3EA589.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Dead_Hit.uasset'
+[2023.09.09-19.21.54:441][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Attack_1" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Attack_1.uasset" SILENT=true
+[2023.09.09-19.21.54:441][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Attack_1
+[2023.09.09-19.21.54:441][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_14D2F61B646CED3965F3C87B0ACCD0D40.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Attack_1.uasset'
+[2023.09.09-19.21.54:443][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Attack_3" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Attack_3.uasset" SILENT=true
+[2023.09.09-19.21.54:443][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Attack_3
+[2023.09.09-19.21.54:443][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Attack_3933AEFF8452AF01B4221F7A91DE98863.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Attack_3.uasset'
+[2023.09.09-19.21.54:446][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Air_Attack_1
+[2023.09.09-19.21.54:446][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_12E9156F14ACD2E4DB9E95498C264BFC8.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Air_Attack_1.uasset'
+[2023.09.09-19.21.54:448][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Air_Attack_2
+[2023.09.09-19.21.54:448][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Air_Attack_20B48FBC14794881BACF8BD82CBEC2ED4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Air_Attack_2.uasset'
+[2023.09.09-19.21.54:450][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Captain/Captain__Dead_Ground" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Dead_Ground.uasset" SILENT=true
+[2023.09.09-19.21.54:450][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Dead_Ground
+[2023.09.09-19.21.54:450][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Dead_GroundC220090B42A948D9F49239B466D8A532.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Dead_Ground.uasset'
+[2023.09.09-19.21.54:453][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Captain/Captain__Fall_aseprite_Flipbook
+[2023.09.09-19.21.54:453][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Fall_aseprite_Flipbook494650E94E5B4426517D04B97B136523.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Captain/Captain__Fall_aseprite_Flipbook.uasset'
+[2023.09.09-19.21.54:455][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Shark__Idle" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Idle.uasset" SILENT=true
+[2023.09.09-19.21.54:456][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Shark__Idle
+[2023.09.09-19.21.54:456][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__IdleCA1F74714E97BAE2A01BF18CBBD9D8D4.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Idle.uasset'
+[2023.09.09-19.21.54:457][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Shark__Run" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Run.uasset" SILENT=true
+[2023.09.09-19.21.54:458][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Shark__Run
+[2023.09.09-19.21.54:458][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Run75F94CD241F824EB1C98E8B0F28585DB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Run.uasset'
+[2023.09.09-19.21.54:460][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Shark__Attack" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Attack.uasset" SILENT=true
+[2023.09.09-19.21.54:460][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Shark__Attack
+[2023.09.09-19.21.54:460][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__AttackEE7DE7B64419A70639127AA69CD4064E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Attack.uasset'
+[2023.09.09-19.21.54:462][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Shark__Hit" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Hit.uasset" SILENT=true
+[2023.09.09-19.21.54:462][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Shark__Hit
+[2023.09.09-19.21.54:462][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__HitADE440F24D792FCEF44ED2A240DDBCBE.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Hit.uasset'
+[2023.09.09-19.21.54:464][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Shark/Shark__Dead_Hit" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Dead_Hit.uasset" SILENT=true
+[2023.09.09-19.21.54:465][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Shark/Shark__Dead_Hit
+[2023.09.09-19.21.54:465][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Shark__Dead_HitE06555184280C64ACCE91CB083A2AC2E.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Shark/Shark__Dead_Hit.uasset'
+[2023.09.09-19.21.54:468][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PaperAssets/Sword/Captain__Sword_Idle" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Captain__Sword_Idle.uasset" SILENT=true
+[2023.09.09-19.21.54:469][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Captain__Sword_Idle
+[2023.09.09-19.21.54:469][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_IdleD82238544A8E7E371D2AE2A733BE869F.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Captain__Sword_Idle.uasset'
+[2023.09.09-19.21.54:471][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Captain__Sword_Spinning
+[2023.09.09-19.21.54:471][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_SpinningFE10EC7D49D77E84C15FAEBA98EC6BB8.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Captain__Sword_Spinning.uasset'
+[2023.09.09-19.21.54:473][621]LogSavePackage: Moving output files for package: /Game/PaperAssets/Sword/Captain__Sword_Embedded
+[2023.09.09-19.21.54:473][621]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/Captain__Sword_EmbeddedD553A2ED4CA986432C19C8AD46774E94.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/PaperAssets/Sword/Captain__Sword_Embedded.uasset'
+[2023.09.09-19.21.54:478][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 327 ms (total: 457 ms)
+[2023.09.09-19.21.54:483][621]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/PaperAssets/Captain/Textures/Captain.Captain
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/PaperSpriteSheetImporter.PaperSpriteSheet /Game/PaperAssets/Captain/Captain.Captain
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Idle_0_aseprite.Captain__Idle_0_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Idle_1_aseprite.Captain__Idle_1_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Idle_2_aseprite.Captain__Idle_2_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Idle_3_aseprite.Captain__Idle_3_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Idle_4_aseprite.Captain__Idle_4_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Run_0_aseprite.Captain__Run_0_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Run_1_aseprite.Captain__Run_1_aseprite
+[2023.09.09-19.21.54:483][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Run_2_aseprite.Captain__Run_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Run_3_aseprite.Captain__Run_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Run_4_aseprite.Captain__Run_4_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Run_5_aseprite.Captain__Run_5_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__JumpRise_0_aseprite.Captain__JumpRise_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__JumpRise_1_aseprite.Captain__JumpRise_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__JumpRise_2_aseprite.Captain__JumpRise_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Fall_aseprite.Captain__Fall_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_0_aseprite.Captain__Dead_Hit_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_1_aseprite.Captain__Dead_Hit_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_2_aseprite.Captain__Dead_Hit_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Hit_3_aseprite.Captain__Dead_Hit_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_1_0_aseprite.Captain__Attack_1_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_1_1_aseprite.Captain__Attack_1_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_1_2_aseprite.Captain__Attack_1_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_2_0_aseprite.Captain__Attack_2_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_2_1_aseprite.Captain__Attack_2_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_2_2_aseprite.Captain__Attack_2_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_3_0_aseprite.Captain__Attack_3_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_3_1_aseprite.Captain__Attack_3_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Attack_3_2_aseprite.Captain__Attack_3_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_1_0_aseprite.Captain__Air_Attack_1_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_1_1_aseprite.Captain__Air_Attack_1_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_1_2_aseprite.Captain__Air_Attack_1_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_2_0_aseprite.Captain__Air_Attack_2_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_2_1_aseprite.Captain__Air_Attack_2_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Air_Attack_2_2_aseprite.Captain__Air_Attack_2_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Throw_Sword_0_aseprite.Captain__Throw_Sword_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Throw_Sword_1_aseprite.Captain__Throw_Sword_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Throw_Sword_2_aseprite.Captain__Throw_Sword_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_0_aseprite.Captain__Dead_Ground_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_1_aseprite.Captain__Dead_Ground_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_2_aseprite.Captain__Dead_Ground_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Captain/Frames/Captain__Dead_Ground_3_aseprite.Captain__Dead_Ground_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/PaperAssets/Shark/Textures/Shark.Shark
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/PaperSpriteSheetImporter.PaperSpriteSheet /Game/PaperAssets/Shark/Shark.Shark
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_0_aseprite.Shark__Idle_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_1_aseprite.Shark__Idle_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_2_aseprite.Shark__Idle_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_3_aseprite.Shark__Idle_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_4_aseprite.Shark__Idle_4_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_5_aseprite.Shark__Idle_5_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_6_aseprite.Shark__Idle_6_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Idle_7_aseprite.Shark__Idle_7_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Run_0_aseprite.Shark__Run_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Run_1_aseprite.Shark__Run_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Run_2_aseprite.Shark__Run_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Run_3_aseprite.Shark__Run_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Run_4_aseprite.Shark__Run_4_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Run_5_aseprite.Shark__Run_5_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_0_aseprite.Shark__Attack_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_1_aseprite.Shark__Attack_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_2_aseprite.Shark__Attack_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_3_aseprite.Shark__Attack_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_4_aseprite.Shark__Attack_4_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_5_aseprite.Shark__Attack_5_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_6_aseprite.Shark__Attack_6_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Attack_7_aseprite.Shark__Attack_7_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Hit_0_aseprite.Shark__Hit_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Hit_1_aseprite.Shark__Hit_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Hit_2_aseprite.Shark__Hit_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Hit_3_aseprite.Shark__Hit_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_0_aseprite.Shark__Dead_Hit_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_1_aseprite.Shark__Dead_Hit_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_2_aseprite.Shark__Dead_Hit_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Shark/Frames/Shark__Dead_Hit_3_aseprite.Shark__Dead_Hit_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/PaperAssets/Sword/Textures/Sword.Sword
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/PaperSpriteSheetImporter.PaperSpriteSheet /Game/PaperAssets/Sword/Sword.Sword
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_0_aseprite.Captain__Sword_Idle_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_1_aseprite.Captain__Sword_Idle_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_2_aseprite.Captain__Sword_Idle_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_3_aseprite.Captain__Sword_Idle_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_4_aseprite.Captain__Sword_Idle_4_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_5_aseprite.Captain__Sword_Idle_5_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_6_aseprite.Captain__Sword_Idle_6_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Idle_7_aseprite.Captain__Sword_Idle_7_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_0_aseprite.Captain__Sword_Spinning_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_1_aseprite.Captain__Sword_Spinning_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_2_aseprite.Captain__Sword_Spinning_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Spinning_3_aseprite.Captain__Sword_Spinning_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_0_aseprite.Captain__Sword_Embedded_0_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_1_aseprite.Captain__Sword_Embedded_1_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_2_aseprite.Captain__Sword_Embedded_2_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PaperAssets/Sword/Frames/Captain__Sword_Embedded_3_aseprite.Captain__Sword_Embedded_3_aseprite
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__JumpRise.Captain__JumpRise
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Dead_Hit.Captain__Dead_Hit
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Attack_1.Captain__Attack_1
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Attack_3.Captain__Attack_3
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Air_Attack_1.Captain__Air_Attack_1
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Air_Attack_2.Captain__Air_Attack_2
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Dead_Ground.Captain__Dead_Ground
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Captain/Captain__Fall_aseprite_Flipbook.Captain__Fall_aseprite_Flipbook
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Shark/Shark__Idle.Shark__Idle
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Shark/Shark__Run.Shark__Run
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Shark/Shark__Attack.Shark__Attack
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Shark/Shark__Hit.Shark__Hit
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Shark/Shark__Dead_Hit.Shark__Dead_Hit
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Sword/Captain__Sword_Idle.Captain__Sword_Idle
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Sword/Captain__Sword_Spinning.Captain__Sword_Spinning
+[2023.09.09-19.21.54:484][621]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/PaperAssets/Sword/Captain__Sword_Embedded.Captain__Sword_Embedded
+[2023.09.09-19.21.58:560][ 81]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.09-19.21.58:571][ 81]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.09-19.21.58:578][ 82]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.09-19.22.00:687][325]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.09.09-19.22.00:688][325]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.09-19.23.43:912][691]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.09-19.23.43:919][691]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.09-19.23.44:026][693]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.09-19.23.47:212][ 76]LogContentBrowser: Attempting asset rename: NewFolder -> Characters
+[2023.09.09-19.23.47:212][ 76]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.09-19.23.50:193][417]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.09-19.23.50:203][417]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.09-19.23.50:307][419]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.09-19.23.51:651][581]LogContentBrowser: Attempting asset rename: NewFolder -> Captain
+[2023.09.09-19.23.51:651][581]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.09-19.23.53:462][784]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.09-19.23.53:479][784]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.09-19.23.53:486][785]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.09-19.23.54:584][908]LogContentBrowser: Attempting asset rename: NewFolder -> Shark
+[2023.09.09-19.23.54:584][908]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.09-19.24.06:306][252]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.09.09-19.24.06:311][252]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.09.09-19.24.06:317][252]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.09.09-19.24.06:325][253]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.09.09-19.24.10:621][758]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ActionChar
+[2023.09.09-19.24.10:638][758]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.09.09-19.24.13:436][ 78]LogContentBrowser: Deferred new asset file creation: BP_ActionChar_Child
+[2023.09.09-19.24.13:449][ 78]LogContentBrowser: Creating deferred item: BP_ActionChar_Child
+[2023.09.09-19.24.13:457][ 79]LogContentBrowser: Renaming the item being created (Deferred Item: BP_ActionChar_Child).
+[2023.09.09-19.24.16:617][450]LogContentBrowser: Attempting asset rename: BP_ActionChar_Child -> BP_Captain
+[2023.09.09-19.24.16:631][450]LogContentBrowser: End creating deferred item BP_ActionChar_Child
+[2023.09.09-19.24.18:712][693]LogContentBrowser: Deferred new asset file creation: BP_ActionChar_Child
+[2023.09.09-19.24.18:729][693]LogContentBrowser: Creating deferred item: BP_ActionChar_Child
+[2023.09.09-19.24.18:737][694]LogContentBrowser: Renaming the item being created (Deferred Item: BP_ActionChar_Child).
+[2023.09.09-19.24.21:017][959]LogContentBrowser: Attempting asset rename: BP_ActionChar_Child -> BP_Shark
+[2023.09.09-19.24.21:022][959]LogContentBrowser: End creating deferred item BP_ActionChar_Child
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.SKEL_BP_Captain_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.SKEL_BP_Captain_C' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain_C' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:251][455]LogMetaData: Removing '/Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Characters/BP_Captain.PackageMetaData'
+[2023.09.09-19.24.25:252][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.24.25:283][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Captain/BP_Captain" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset" SILENT=true
+[2023.09.09-19.24.25:287][455]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Captain/BP_Captain
+[2023.09.09-19.24.25:287][455]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_Captain4C925E2B4CABBD17E5FF89ACDBE79AAB.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset'
+[2023.09.09-19.24.25:296][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 501 ms)
+[2023.09.09-19.24.25:307][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.09.09-19.24.25:313][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.09.09-19.24.25:318][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2023.09.09-19.24.25:333][455]AssetCheck: New page: Asset Save: BP_Captain
+[2023.09.09-19.24.25:333][455]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.SKEL_BP_Shark_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.SKEL_BP_Shark_C' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark_C' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogMetaData: Removing '/Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Characters/BP_Shark.PackageMetaData'
+[2023.09.09-19.24.27:416][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.24.27:448][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Shark/BP_Shark" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/BP_Shark.uasset" SILENT=true
+[2023.09.09-19.24.27:450][697]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Shark/BP_Shark
+[2023.09.09-19.24.27:450][697]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_SharkFFCFCBB243131755BD43E2AB20269ADF.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/BP_Shark.uasset'
+[2023.09.09-19.24.27:459][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 543 ms)
+[2023.09.09-19.24.27:466][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.09.09-19.24.27:472][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.09-19.24.27:477][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2023.09.09-19.24.27:493][697]AssetCheck: New page: Asset Save: BP_Shark
+[2023.09.09-19.24.27:493][697]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark
+[2023.09.09-19.24.28:617][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar
+[2023.09.09-19.24.28:626][822]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.24.28:626][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.24.29:356][822]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2023.09.09-19.24.29:387][822]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.09.09-19.25.25:053][419]BlueprintLog: New page: Compile BP_ActionChar
+[2023.09.09-19.25.25:102][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.09.09-19.25.25:347][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.25.25:371][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ActionChar" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset" SILENT=true
+[2023.09.09-19.25.25:373][439]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_ActionChar
+[2023.09.09-19.25.25:373][439]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_ActionChar271DBBB54100D96599267EAC1A6C3F12.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset'
+[2023.09.09-19.25.25:380][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 577 ms)
+[2023.09.09-19.25.25:385][439]AssetCheck: New page: Asset Save: BP_ActionChar
+[2023.09.09-19.25.25:385][439]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar
+[2023.09.09-19.25.26:748][578]LogViewport: Scene viewport resized to 1139x703, mode Windowed.
+[2023.09.09-19.25.26:790][580]LogViewport: Scene viewport resized to 740x417, mode Windowed.
+[2023.09.09-19.25.26:815][581]LogViewport: Scene viewport resized to 520x259, mode Windowed.
+[2023.09.09-19.25.26:833][582]LogViewport: Scene viewport resized to 467x221, mode Windowed.
+[2023.09.09-19.25.27:077][611]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2023.09.09-19.25.27:316][639]LogSlate: Window 'BP_ActionChar' being destroyed
+[2023.09.09-19.25.27:323][639]LogViewport: Scene viewport resized to 1141x727, mode Windowed.
+[2023.09.09-19.25.27:353][640]LogViewport: Scene viewport resized to 1141x719, mode Windowed.
+[2023.09.09-19.25.27:369][641]LogViewport: Scene viewport resized to 1141x713, mode Windowed.
+[2023.09.09-19.25.27:382][642]LogViewport: Scene viewport resized to 1141x709, mode Windowed.
+[2023.09.09-19.25.27:395][643]LogViewport: Scene viewport resized to 1141x705, mode Windowed.
+[2023.09.09-19.25.27:407][644]LogViewport: Scene viewport resized to 1141x701, mode Windowed.
+[2023.09.09-19.25.27:419][645]LogViewport: Scene viewport resized to 1141x697, mode Windowed.
+[2023.09.09-19.25.27:432][646]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2023.09.09-19.25.27:446][647]LogViewport: Scene viewport resized to 1141x689, mode Windowed.
+[2023.09.09-19.25.27:459][648]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.09.09-19.25.27:473][649]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2023.09.09-19.25.31:030][ 60]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar_C
+[2023.09.09-19.25.31:030][ 60]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar_C
+[2023.09.09-19.25.31:031][ 60]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar as actor: BP_ActionChar_C /Game/Maps/MAP_Debug.MAP_Debug:PersistentLevel.BP_ActionChar_C_0
+[2023.09.09-19.25.31:031][ 60]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar as actor: BP_ActionChar_C /Game/Maps/MAP_Debug.MAP_Debug:PersistentLevel.BP_ActionChar_C_0
+[2023.09.09-19.25.31:032][ 60]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.09-19.25.33:026][296]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar_C
+[2023.09.09-19.25.33:026][296]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar_C
+[2023.09.09-19.25.33:028][296]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar as actor: BP_ActionChar_C /Game/Maps/MAP_Debug.MAP_Debug:PersistentLevel.BP_ActionChar_C_1
+[2023.09.09-19.25.33:028][296]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar as actor: BP_ActionChar_C /Game/Maps/MAP_Debug.MAP_Debug:PersistentLevel.BP_ActionChar_C_1
+[2023.09.09-19.25.33:041][296]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.09.09-19.25.33:061][296]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:316][495]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-19.25.43:329][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-19.25.43:330][495]PIE: New page: PIE session: MAP_Debug (Sep 9, 2023, 9:25:43 AM)
+[2023.09.09-19.25.43:333][495]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.09.09-19.25.43:333][495]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.09.09-19.25.43:333][495]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.25.43:335][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001652s)
+[2023.09.09-19.25.43:335][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001686s)
+[2023.09.09-19.25.43:335][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.25.43:335][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.25.43:336][495]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.09.09-19.25.43:336][495]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2023.09.09-19.25.43:350][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.09.09-19.25.43:351][495]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-19.25.43:351][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-19.25.43:351][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-19.25.43:352][495]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-19.25.43:352][495]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-19.25.43:352][495]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-19.25.43:353][495]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-19.25.43:370][495]LogAudioMixer: Display: Using Audio Hardware Device Headphones (5- Arctis Nova Pro Wireless)
+[2023.09.09-19.25.43:371][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-19.25.43:371][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-19.25.43:371][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-19.25.43:372][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.09.09-19.25.43:372][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.09.09-19.25.43:373][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.09.09-19.25.43:373][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.09.09-19.25.43:373][495]LogInit: FAudioDevice initialized with ID 2.
+[2023.09.09-19.25.43:373][495]LogAudio: Display: Audio Device (ID: 2) registered with world 'MAP_Debug'.
+[2023.09.09-19.25.43:374][495]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.09.09-19.25.43:378][495]LogLoad: Game class is 'GameModeBase'
+[2023.09.09-19.25.43:378][495]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.09.09-14.25.43
+[2023.09.09-19.25.43:380][495]LogWorld: Bringing up level for play took: 0.001733
+[2023.09.09-19.25.43:381][495]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.09.09-19.25.43:385][495]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2023.09.09-19.25.43:386][495]PIE: Server logged in
+[2023.09.09-19.25.43:387][495]PIE: Play in editor total start time 0.068 seconds.
+[2023.09.09-19.25.43:451][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:451][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:452][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:452][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:452][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:452][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:453][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:453][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:453][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:453][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:453][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.43:454][495]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:650][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.25.54:650][821]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.25.54:650][821]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.25.54:650][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.25.54:652][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-19.25.54:656][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.25.54:668][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.25.54:669][821]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.09.09-19.25.54:669][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.09-19.25.54:670][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.09-19.25.54:675][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.09.09-19.25.54:687][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:687][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:687][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:688][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:688][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:688][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:688][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:689][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:689][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:689][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.25.54:718][823]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.09.09-19.26.05:911][163]BlueprintLog: New page: Compile BP_ActionChar
+[2023.09.09-19.26.05:947][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.09.09-19.26.06:223][191]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:399][402]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-19.26.16:405][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-19.26.16:405][402]PIE: New page: PIE session: MAP_Debug (Sep 9, 2023, 9:26:16 AM)
+[2023.09.09-19.26.16:440][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.26.16:442][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001501s)
+[2023.09.09-19.26.16:442][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001544s)
+[2023.09.09-19.26.16:442][402]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.26.16:442][402]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.26.16:442][402]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.09.09-19.26.16:443][402]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2023.09.09-19.26.16:456][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.09.09-19.26.16:458][402]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-19.26.16:458][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-19.26.16:458][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-19.26.16:458][402]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-19.26.16:458][402]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-19.26.16:458][402]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-19.26.16:460][402]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-19.26.16:476][402]LogAudioMixer: Display: Using Audio Hardware Device Headphones (5- Arctis Nova Pro Wireless)
+[2023.09.09-19.26.16:476][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-19.26.16:476][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-19.26.16:476][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-19.26.16:476][402]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.09.09-19.26.16:476][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.09.09-19.26.16:478][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.09.09-19.26.16:478][402]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.09.09-19.26.16:478][402]LogInit: FAudioDevice initialized with ID 3.
+[2023.09.09-19.26.16:478][402]LogAudio: Display: Audio Device (ID: 3) registered with world 'MAP_Debug'.
+[2023.09.09-19.26.16:478][402]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.09-19.26.16:481][402]LogLoad: Game class is 'GameModeBase'
+[2023.09.09-19.26.16:481][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.09.09-14.26.16
+[2023.09.09-19.26.16:481][402]LogWorld: Bringing up level for play took: 0.000577
+[2023.09.09-19.26.16:483][402]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.09.09-19.26.16:484][402]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2023.09.09-19.26.16:484][402]PIE: Server logged in
+[2023.09.09-19.26.16:485][402]PIE: Play in editor total start time 0.081 seconds.
+[2023.09.09-19.26.16:495][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:495][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:496][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:496][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:497][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:497][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:497][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:497][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:497][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:498][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:498][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.16:498][402]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:311][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.26.35:311][644]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.26.35:311][644]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.26.35:311][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.26.35:314][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-19.26.35:317][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.26.35:330][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.26.35:330][644]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.09-19.26.35:330][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.09-19.26.35:332][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.09-19.26.35:336][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.09.09-19.26.35:349][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:350][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:350][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:350][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:350][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:351][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:351][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:351][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:351][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:351][644]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.35:379][646]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.09.09-19.26.43:321][477]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-19.26.43:323][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-19.26.43:323][477]PIE: New page: PIE session: MAP_Debug (Sep 9, 2023, 9:26:43 AM)
+[2023.09.09-19.26.43:361][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.26.43:363][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001687s)
+[2023.09.09-19.26.43:363][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001752s)
+[2023.09.09-19.26.43:363][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.26.43:363][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.26.43:363][477]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.09.09-19.26.43:364][477]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2023.09.09-19.26.43:377][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.09.09-19.26.43:380][477]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-19.26.43:380][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-19.26.43:380][477]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-19.26.43:380][477]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-19.26.43:380][477]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-19.26.43:380][477]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-19.26.43:382][477]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-19.26.43:398][477]LogAudioMixer: Display: Using Audio Hardware Device Headphones (5- Arctis Nova Pro Wireless)
+[2023.09.09-19.26.43:399][477]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-19.26.43:399][477]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-19.26.43:399][477]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-19.26.43:399][477]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.09.09-19.26.43:399][477]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.09.09-19.26.43:401][477]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.09.09-19.26.43:401][477]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.09.09-19.26.43:401][477]LogInit: FAudioDevice initialized with ID 4.
+[2023.09.09-19.26.43:401][477]LogAudio: Display: Audio Device (ID: 4) registered with world 'MAP_Debug'.
+[2023.09.09-19.26.43:401][477]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.09-19.26.43:403][477]LogLoad: Game class is 'GameModeBase'
+[2023.09.09-19.26.43:404][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.09.09-14.26.43
+[2023.09.09-19.26.43:404][477]LogWorld: Bringing up level for play took: 0.000570
+[2023.09.09-19.26.43:405][477]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.09.09-19.26.43:406][477]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2023.09.09-19.26.43:406][477]PIE: Server logged in
+[2023.09.09-19.26.43:407][477]PIE: Play in editor total start time 0.083 seconds.
+[2023.09.09-19.26.43:417][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:417][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:418][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:418][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:418][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:418][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:419][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:419][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:419][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:419][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:420][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.43:420][477]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:081][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.26.56:081][268]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.26.56:082][268]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.26.56:082][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.26.56:130][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-19.26.56:134][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.26.56:148][268]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-19.26.56:148][268]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.09-19.26.56:148][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.09-19.26.56:149][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.09-19.26.56:152][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.26.56:153][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.09.09-19.26.56:162][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:162][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:163][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:163][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:163][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:163][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:164][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:164][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:164][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:164][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.26.56:176][269]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.09.09-19.27.02:548][ 27]BlueprintLog: New page: Compile BP_ActionChar
+[2023.09.09-19.27.02:586][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.09.09-19.27.02:926][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.27.02:952][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ActionChar" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset" SILENT=true
+[2023.09.09-19.27.02:954][ 63]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_ActionChar
+[2023.09.09-19.27.02:954][ 63]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_ActionCharF127AB23451FB1EDA9D055B9D12E0B25.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset'
+[2023.09.09-19.27.02:959][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 610 ms)
+[2023.09.09-19.27.02:963][ 63]AssetCheck: New page: Asset Save: BP_ActionChar
+[2023.09.09-19.27.02:963][ 63]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar
+[2023.09.09-19.27.03:143][ 84]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.03:977][180]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-19.27.03:982][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-19.27.03:982][180]PIE: New page: PIE session: MAP_Debug (Sep 9, 2023, 9:27:03 AM)
+[2023.09.09-19.27.03:982][180]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.27.03:983][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001448s)
+[2023.09.09-19.27.03:983][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001469s)
+[2023.09.09-19.27.03:984][180]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.27.03:984][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.27.03:984][180]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.09.09-19.27.03:984][180]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2023.09.09-19.27.03:998][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.09.09-19.27.03:999][180]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-19.27.03:999][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-19.27.03:999][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-19.27.03:999][180]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-19.27.03:999][180]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-19.27.03:999][180]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-19.27.04:001][180]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-19.27.04:017][180]LogAudioMixer: Display: Using Audio Hardware Device Headphones (5- Arctis Nova Pro Wireless)
+[2023.09.09-19.27.04:018][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-19.27.04:018][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-19.27.04:018][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-19.27.04:018][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.09.09-19.27.04:018][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.09.09-19.27.04:020][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.09.09-19.27.04:020][180]LogInit: FAudioDevice initialized with ID 5.
+[2023.09.09-19.27.04:020][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.09.09-19.27.04:020][180]LogAudio: Display: Audio Device (ID: 5) registered with world 'MAP_Debug'.
+[2023.09.09-19.27.04:020][180]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.09-19.27.04:023][180]LogLoad: Game class is 'GameModeBase'
+[2023.09.09-19.27.04:023][180]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.09.09-14.27.04
+[2023.09.09-19.27.04:023][180]LogWorld: Bringing up level for play took: 0.000555
+[2023.09.09-19.27.04:025][180]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.09.09-19.27.04:025][180]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2023.09.09-19.27.04:025][180]PIE: Server logged in
+[2023.09.09-19.27.04:026][180]PIE: Play in editor total start time 0.046 seconds.
+[2023.09.09-19.27.04:048][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:048][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:049][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:049][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:049][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:049][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:050][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:050][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:050][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:050][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:050][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.04:051][180]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:561][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.27.08:561][708]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.27.08:562][708]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.27.08:562][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.27.08:564][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-19.27.08:568][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.27.08:581][708]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-19.27.08:581][708]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.09-19.27.08:581][708]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.09-19.27.08:582][708]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.09-19.27.08:585][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.27.08:586][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.09.09-19.27.08:599][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:600][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:600][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:600][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:600][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:601][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:601][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:601][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:601][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:602][708]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.08:648][711]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.09.09-19.27.22:755][382]BlueprintLog: New page: Compile BP_ActionChar
+[2023.09.09-19.27.22:792][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.09-19.27.23:023][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:874][503]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-19.27.23:879][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-19.27.23:879][503]PIE: New page: PIE session: MAP_Debug (Sep 9, 2023, 9:27:23 AM)
+[2023.09.09-19.27.23:902][503]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.27.23:903][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001778s)
+[2023.09.09-19.27.23:903][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001832s)
+[2023.09.09-19.27.23:903][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.27.23:904][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.27.23:904][503]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.09.09-19.27.23:904][503]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2023.09.09-19.27.23:918][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.09.09-19.27.23:919][503]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-19.27.23:919][503]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-19.27.23:919][503]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-19.27.23:919][503]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-19.27.23:919][503]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-19.27.23:919][503]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-19.27.23:921][503]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-19.27.23:937][503]LogAudioMixer: Display: Using Audio Hardware Device Headphones (5- Arctis Nova Pro Wireless)
+[2023.09.09-19.27.23:937][503]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-19.27.23:937][503]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-19.27.23:937][503]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-19.27.23:938][503]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.09.09-19.27.23:938][503]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.09.09-19.27.23:939][503]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.09.09-19.27.23:939][503]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.09.09-19.27.23:939][503]LogInit: FAudioDevice initialized with ID 6.
+[2023.09.09-19.27.23:939][503]LogAudio: Display: Audio Device (ID: 6) registered with world 'MAP_Debug'.
+[2023.09.09-19.27.23:939][503]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.09-19.27.23:941][503]LogLoad: Game class is 'GameModeBase'
+[2023.09.09-19.27.23:942][503]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.09.09-14.27.23
+[2023.09.09-19.27.23:942][503]LogWorld: Bringing up level for play took: 0.000769
+[2023.09.09-19.27.23:944][503]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.09.09-19.27.23:945][503]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2023.09.09-19.27.23:945][503]PIE: Server logged in
+[2023.09.09-19.27.23:945][503]PIE: Play in editor total start time 0.068 seconds.
+[2023.09.09-19.27.23:956][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:957][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:957][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:957][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:957][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:958][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:958][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:958][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:958][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:958][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:959][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.23:959][503]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:082][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.27.31:082][342]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.27.31:082][342]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.27.31:082][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.27.31:084][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-19.27.31:087][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.27.31:100][342]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-19.27.31:100][342]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.09-19.27.31:101][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.09-19.27.31:102][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.09-19.27.31:105][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.27.31:106][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.09.09-19.27.31:121][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:121][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:121][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:122][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:122][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:122][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:122][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:123][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:123][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:123][342]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.27.31:151][344]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.09.09-19.28.06:631][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.28.06:654][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Debug" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Maps/MAP_Debug.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-19.28.06:667][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.09.09-19.28.06:674][565]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Debug
+[2023.09.09-19.28.06:674][565]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/MAP_Debug479D210F40BB15EADF1358B2E6EE862B.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Maps/MAP_Debug.umap'
+[2023.09.09-19.28.06:679][565]LogFileHelpers: Saving map 'MAP_Debug' took 0.025
+[2023.09.09-19.28.06:684][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 664 ms)
+[2023.09.09-19.28.06:688][565]AssetCheck: New page: Asset Save: MAP_Debug
+[2023.09.09-19.28.06:688][565]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Debug.MAP_Debug
+[2023.09.09-19.28.08:540][786]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.28.08:564][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ActionChar" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset" SILENT=true
+[2023.09.09-19.28.08:574][786]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_ActionChar
+[2023.09.09-19.28.08:575][786]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_ActionChar213CFBD74A0D0C1304439D85F302A5D6.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset'
+[2023.09.09-19.28.08:579][786]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 703 ms)
+[2023.09.09-19.28.08:584][786]AssetCheck: New page: Asset Save: BP_ActionChar
+[2023.09.09-19.28.08:585][786]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/BP_ActionChar.BP_ActionChar
+[2023.09.09-19.28.14:508][493]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain
+[2023.09.09-19.28.14:509][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.28.14:509][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.28.14:558][493]LogViewport: Scene viewport resized to 1141x715, mode Windowed.
+[2023.09.09-19.28.14:577][493]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.09.09-19.28.14:604][494]LogViewport: Scene viewport resized to 1141x700, mode Windowed.
+[2023.09.09-19.28.14:628][495]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2023.09.09-19.28.14:649][496]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.09.09-19.28.14:661][497]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2023.09.09-19.28.54:291][177]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.050 and deleted 0 files with total size 0 MiB and 4 empty folders. Scanned 1186 files in 1802 folders with total size 27 MiB.
+[2023.09.09-19.29.09:819][ 36]BlueprintLog: New page: Compile BP_Captain
+[2023.09.09-19.29.09:874][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.09.09-19.29.10:895][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.29.10:917][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Captain/BP_Captain" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset" SILENT=true
+[2023.09.09-19.29.10:919][153]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Captain/BP_Captain
+[2023.09.09-19.29.10:919][153]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_Captain11DFAF4240A661F953511180372EABE6.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset'
+[2023.09.09-19.29.10:924][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 731 ms)
+[2023.09.09-19.29.10:928][153]AssetCheck: New page: Asset Save: BP_Captain
+[2023.09.09-19.29.10:928][153]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain
+[2023.09.09-19.29.14:615][590]LogClass: Warning: Short type name "PrimitiveComponent" provided for TryFindType. Please convert it to a path name (suggested: "/Script/Engine.PrimitiveComponent"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2023.09.09-19.29.16:925][862]Cmd: DELETE
+[2023.09.09-19.29.16:925][862]Cmd: ACTOR DELETE
+[2023.09.09-19.29.16:928][862]LogEditorActor: Deleted Actor: BP_ActionChar_C
+[2023.09.09-19.29.16:942][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.09.09-19.29.16:944][862]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.09.09-19.29.27:062][994]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.09-19.29.27:062][994]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.09.09-19.29.27:063][994]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/MAP_Debug.MAP_Debug:PersistentLevel.PlayerStart_0
+[2023.09.09-19.29.27:063][994]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.09-19.29.27:072][994]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Maps/MAP_Debug.MAP_Debug:PersistentLevel.PlayerStart_0
+[2023.09.09-19.29.27:072][994]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.09-19.29.27:081][994]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.09-19.29.27:097][994]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.29.29:440][274]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.09-19.29.30:652][418]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.09.09-19.29.44:041][823]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.09.09-19.29.44:047][823]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.09.09-19.29.44:052][823]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.09.09-19.29.44:060][824]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.09.09-19.29.46:978][169]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_Action
+[2023.09.09-19.29.46:983][169]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.09.09-19.29.48:691][371]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GM_Action.GM_Action
+[2023.09.09-19.29.48:692][371]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.29.48:692][371]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.29.48:783][371]LogViewport: Scene viewport resized to 1141x702, mode Windowed.
+[2023.09.09-19.29.48:816][372]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.09.09-19.29.48:850][373]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2023.09.09-19.29.57:959][457]BlueprintLog: New page: Compile GM_Action
+[2023.09.09-19.29.57:992][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.09.09-19.29.58:294][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.29.58:315][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GM_Action" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/GM_Action.uasset" SILENT=true
+[2023.09.09-19.29.58:317][491]LogSavePackage: Moving output files for package: /Game/Blueprints/GM_Action
+[2023.09.09-19.29.58:317][491]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/GM_Action80BE258B4DF548A0E50BC19FF8A37AFA.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/GM_Action.uasset'
+[2023.09.09-19.29.58:323][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 760 ms)
+[2023.09.09-19.29.58:328][491]AssetCheck: New page: Asset Save: GM_Action
+[2023.09.09-19.29.58:328][491]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GM_Action.GM_Action
+[2023.09.09-19.30.10:732][912]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.09-19.30.10:738][912]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.09-19.30.11:386][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.30.11:407][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Debug" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Maps/MAP_Debug.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-19.30.11:421][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.09.09-19.30.11:426][986]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Debug
+[2023.09.09-19.30.11:426][986]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/MAP_DebugF4A99A9E470CA3E3523DD58325109D0C.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Maps/MAP_Debug.umap'
+[2023.09.09-19.30.11:431][986]LogFileHelpers: Saving map 'MAP_Debug' took 0.023
+[2023.09.09-19.30.11:436][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 809 ms)
+[2023.09.09-19.30.11:440][986]AssetCheck: New page: Asset Save: MAP_Debug
+[2023.09.09-19.30.11:440][986]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_Debug.MAP_Debug
+[2023.09.09-19.30.12:405][102]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.09-19.30.12:408][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-19.30.12:409][102]PIE: New page: PIE session: MAP_Debug (Sep 9, 2023, 9:30:12 AM)
+[2023.09.09-19.30.12:434][102]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.30.12:436][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001547s)
+[2023.09.09-19.30.12:436][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001589s)
+[2023.09.09-19.30.12:436][102]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-19.30.12:436][102]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-19.30.12:437][102]LogAIModule: Creating AISystem for world MAP_Debug
+[2023.09.09-19.30.12:437][102]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2023.09.09-19.30.12:449][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.09.09-19.30.12:451][102]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-19.30.12:451][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-19.30.12:451][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-19.30.12:451][102]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-19.30.12:451][102]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-19.30.12:451][102]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-19.30.12:453][102]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-19.30.12:468][102]LogAudioMixer: Display: Using Audio Hardware Device Headphones (5- Arctis Nova Pro Wireless)
+[2023.09.09-19.30.12:469][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-19.30.12:469][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-19.30.12:469][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-19.30.12:470][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.09.09-19.30.12:470][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.09.09-19.30.12:471][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.09.09-19.30.12:471][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.09.09-19.30.12:471][102]LogInit: FAudioDevice initialized with ID 7.
+[2023.09.09-19.30.12:471][102]LogAudio: Display: Audio Device (ID: 7) registered with world 'MAP_Debug'.
+[2023.09.09-19.30.12:471][102]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.09-19.30.12:473][102]LogLoad: Game class is 'GM_Action_C'
+[2023.09.09-19.30.12:473][102]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2023.09.09-14.30.12
+[2023.09.09-19.30.12:474][102]LogWorld: Bringing up level for play took: 0.000436
+[2023.09.09-19.30.12:475][102]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.09.09-19.30.12:481][102]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2023.09.09-19.30.12:481][102]PIE: Server logged in
+[2023.09.09-19.30.12:482][102]PIE: Play in editor total start time 0.074 seconds.
+[2023.09.09-19.30.12:493][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:493][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:493][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:494][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:494][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:494][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:494][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:494][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:495][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:495][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:496][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.12:496][102]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:595][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.30.18:595][819]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2023.09.09-19.30.18:595][819]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-19.30.18:595][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.30.18:597][819]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-19.30.18:600][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-19.30.18:613][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-19.30.18:613][819]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.09-19.30.18:613][819]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.09-19.30.18:615][819]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.09-19.30.18:619][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.09.09-19.30.18:632][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:632][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:632][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:633][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:633][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:633][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:633][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:634][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:634][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:634][819]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.09-19.30.18:672][822]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.09.09-19.31.03:366][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.09.09-19.31.03:369][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-19.31.03:401][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Shark/BP_Shark" FILE="../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/BP_Shark.uasset" SILENT=true
+[2023.09.09-19.31.03:403][119]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Shark/BP_Shark
+[2023.09.09-19.31.03:403][119]LogSavePackage: Moving '../../../../../../Unreal Projects/ActionPlatformer/Saved/BP_Shark539C6A4043230A51BB1FD8883C7C4278.tmp' to '../../../../../../Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/BP_Shark.uasset'
+[2023.09.09-19.31.03:408][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 848 ms)
+[2023.09.09-19.31.03:414][119]AssetCheck: New page: Asset Save: BP_Shark
+[2023.09.09-19.31.03:414][119]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Shark/BP_Shark.BP_Shark
