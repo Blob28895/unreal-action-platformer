@@ -122,7 +122,12 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/BP_Shark.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/BP_ActionChar.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/GM_Action.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/GM_Action.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Attack.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Move.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Jump.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Throw.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Input/IMC_Action.uasset"
 			]
 		}
 	]
