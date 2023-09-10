@@ -127,7 +127,15 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Move.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Jump.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Input/Actions/IA_Throw.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Input/IMC_Action.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Input/IMC_Action.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Idle.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Run.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/JumpRise.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Fall.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Attack.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Throw.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AS_Captain.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/ABP_Captain.uasset"
 			]
 		}
 	]
