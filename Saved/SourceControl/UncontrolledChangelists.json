@@ -135,7 +135,8 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Attack.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Throw.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AS_Captain.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/ABP_Captain.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/ABP_Captain.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/NotifyStates/ANS_Attack.uasset"
 			]
 		}
 	]

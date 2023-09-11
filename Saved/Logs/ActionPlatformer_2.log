@@ -4305,3 +4305,23 @@ UnknownFunction []
 [2023.09.10-19.10.55:286][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
 [2023.09.10-19.46.30:929][879]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.027 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
 [2023.09.10-19.47.32:393][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.09.10-20.46.29:949][893]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.047 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.10-21.46.30:926][694]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.023 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.10-22.46.29:961][596]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.057 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.10-23.46.29:953][399]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.048 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.10-23.57.46:417][429]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (5- Arctis Nova Pro Wireless), InstanceID=1
+[2023.09.10-23.57.46:743][429]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.10-23.57.47:077][430]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a0ba480d-5927-40d4-b5a6-9cacb04a16ea}, Name=Headphones (5- Arctis Nova Pro Wireless)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=49.14
+[2023.09.10-23.57.47:077][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.10-23.57.47:078][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.11-00.46.30:934][201]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.028 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.11-01.07.42:625][ 15]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek USB Audio), InstanceID=1
+[2023.09.11-01.07.42:792][ 15]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13512
+[2023.09.11-01.07.43:127][ 16]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e53f8d16-1bcf-4bf5-afe4-3a16d4fc74d1}, Name=Headphones (Realtek USB Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=14.22
+[2023.09.11-01.07.43:127][ 16]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.11-01.07.43:128][ 16]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.11-01.46.29:947][996]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.041 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.11-02.46.29:958][794]LogDerivedDataCache: C:/Users/blob2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.051 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1186 files in 1798 folders with total size 27 MiB.
+[2023.09.11-03.13.22:604][951]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Action.IMC_Action
+[2023.09.11-03.13.33:052][723]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Jump.IA_Jump
+[2023.09.11-03.14.58:442][464]LogD3D12RHI: Warning: GPU timeout: A payload (0x0000063CDD040B60) on the [0x0000063CC60BCA80, 3D] queue has not completed after 5.000001 seconds.
