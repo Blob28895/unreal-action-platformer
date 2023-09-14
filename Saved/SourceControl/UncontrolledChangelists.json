@@ -142,7 +142,14 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Hit.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Throw.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Hit_Cue.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Throw_Cue.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Throw_Cue.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Idle.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Run.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Stun.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Defeated.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Attack.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AS_Shark.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/ABP_Shark.uasset"
 			]
 		}
 	]
