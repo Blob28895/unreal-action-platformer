@@ -137,7 +137,12 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AS_Captain.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/ABP_Captain.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/NotifyStates/ANS_Attack.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Stun.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Stun.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Captain/AnimSequences/Defeated.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Hit.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Throw.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Hit_Cue.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/SFX/S_Throw_Cue.uasset"
 			]
 		}
 	]
