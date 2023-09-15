@@ -149,7 +149,10 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Defeated.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AnimSequences/Attack.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/AS_Shark.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/ABP_Shark.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Characters/Shark/ABP_Shark.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/AIC_Enemy.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/BB_Enemy.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/BT_Enemy.uasset"
 			]
 		}
 	]
