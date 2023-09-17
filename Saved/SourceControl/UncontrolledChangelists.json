@@ -153,7 +153,14 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/AIC_Enemy.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/BB_Enemy.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/BT_Enemy.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/Tasks/BTT_Try_Attack.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/AI/Tasks/BTT_Try_Attack.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Enums/E_Abilities.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/BP_Ability_Pickup.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/M_Ability.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/MI_SwordThrow.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/BP_Ability_SwordThrow.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/MI_Ability_DoubleJump.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/BP_Ability_Double_Jump.uasset"
 			]
 		}
 	]
