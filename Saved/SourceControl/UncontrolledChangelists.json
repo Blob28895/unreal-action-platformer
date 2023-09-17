@@ -160,7 +160,8 @@
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/MI_SwordThrow.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/BP_Ability_SwordThrow.uasset",
 				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/MI_Ability_DoubleJump.uasset",
-				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/BP_Ability_Double_Jump.uasset"
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/Abilities/BP_Ability_Double_Jump.uasset",
+				"T:/Unreal Projects/ActionPlatformer/Content/Blueprints/BP_Sword.uasset"
 			]
 		}
 	]
